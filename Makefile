@@ -4,7 +4,7 @@ build:
 	docker build . -t timofurrer/unidb
 
 run:
-	docker run --name unidb-test -it timofurrer/unidb
+	docker run --name unidb-test -d -it timofurrer/unidb
 
 clean:
-	docker rm unidb-test | true
+	docker rm -f unidb-test | true
