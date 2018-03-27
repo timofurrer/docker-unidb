@@ -1,4 +1,4 @@
-# Uni in Docker
+# Uni DB in Docker
 
 Dockerfile and resources to host the Uni DB with postgres in a docker container.
 
@@ -6,7 +6,9 @@ Dockerfile and resources to host the Uni DB with postgres in a docker container.
 
 Start the postgres server hosting the Uni DB:
 
-    docker run -it timofurrer/unidb
+```
+docker run -it timofurrer/unidb
+```
 
 Get the IP address with `docker inspect <name>` and use it to connect with your favorite tool!
 
