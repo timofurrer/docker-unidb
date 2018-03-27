@@ -8,3 +8,6 @@ run:
 
 clean:
 	docker rm -f unidb-test | true
+
+publish: build
+	docker push timofurrer/unidb:latest
